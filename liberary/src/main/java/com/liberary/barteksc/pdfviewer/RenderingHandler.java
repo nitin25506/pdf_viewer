@@ -25,12 +25,13 @@ import android.os.Looper;
 import android.os.Message;
 import android.util.Log;
 
-import com.github.barteksc.pdfviewer.exception.PageRenderingException;
-import com.github.barteksc.pdfviewer.model.PagePart;
+import com.liberary.barteksc.pdfviewer.exception.PageRenderingException;
+import com.liberary.barteksc.pdfviewer.model.PagePart;
+
 
 /**
  * A {@link Handler} that will process incoming {@link RenderingTask} messages
- * and alert {@link PDFView#onBitmapRendered(PagePart)} when the portion of the
+ * and alert  when the portion of the
  * PDF is ready to render.
  */
 class RenderingHandler extends Handler {
