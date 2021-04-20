@@ -1,15 +1,14 @@
 # pdf_viewer
 
    implementation 'com.github.nitin25506:pdf_viewer:1.1'
-   
-   Include PDFView in your layout
+
 <com.github.barteksc.pdfviewer.PDFView
         android:id="@+id/pdfView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
         
-     
-All available options with default values:
+        
+        All available options with default values:
 
 pdfView.fromUri(Uri)
 or
