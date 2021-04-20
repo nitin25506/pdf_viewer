@@ -10,17 +10,17 @@
         
         All available options with default values:
 
-pdfView.fromUri(Uri)
-or
-pdfView.fromFile(File)
-or
-pdfView.fromBytes(byte[])
-or
-pdfView.fromStream(InputStream) // stream is written to bytearray - native code cannot use Java Streams
-or
-pdfView.fromSource(DocumentSource)
-or
-pdfView.fromAsset(String)
+         pdfView.fromUri(Uri)
+         or
+      pdfView.fromFile(File)
+      or
+      pdfView.fromBytes(byte[])
+      or
+      pdfView.fromStream(InputStream) // stream is written to bytearray - native code cannot use Java Streams
+      or
+      pdfView.fromSource(DocumentSource)
+      or
+      pdfView.fromAsset(String)
     .pages(0, 2, 1, 3, 3, 3) // all pages are displayed by default
     .enableSwipe(true) // allows to block changing pages using swipe
     .swipeHorizontal(false)
