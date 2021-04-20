@@ -2,7 +2,7 @@
 
    implementation 'com.github.nitin25506:pdf_viewer:1.1'
 
-<com.github.barteksc.pdfviewer.PDFView
+      <com.github.barteksc.pdfviewer.PDFView
         android:id="@+id/pdfView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
